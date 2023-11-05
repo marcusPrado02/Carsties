@@ -10,10 +10,10 @@ public class Item
     public string Model { get; set; }
     public int Year { get; set; }
     public string Color { get; set; }
-    
+
     //  nav properties
     public Auction Auction { get; set; }
     public Guid AuctionId { get; set; }
-    public int Mileage { get; internal set; }
-    public string ImageUrl { get; internal set; }
+    public int Mileage { get; set; }
+    public string ImageUrl { get; set; }
 }

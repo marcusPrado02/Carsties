@@ -15,10 +15,10 @@ public class CreateAuctionDTO
     [Required]
     public int Mileage { get; internal set; }
     [Required]
-    public string ImageUrl { get; internal set; }
+    public string ImageUrl { get; set; }
     [Required]
     public int ReversePrice { get; set; }
     [Required]
     public DateTime AuctionEnd { get; set; }
-    
+
 }
